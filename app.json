@@ -3,16 +3,16 @@
     "description": "Deploy",
     "keywords": ["Deploy"],
     "env": {
-        "VmessUUID": {
-            "description": "Vmess UUID. Use UUID tools to generate you own UUID.",
+        "UUID": {
+            "description": "UUID. Use UUID tools to generate you own UUID.",
             "value": "ad2c9acd-3afb-4fae-aff2-954c532020bd"
         },
         "SecretPATH": {
-            "description": "Websocket base Path. Set this path to an uncommon path which doesn't contain sensitive information.",
-            "value": "/mypath"
+            "description": "ws base Path. Set this path to an uncommon path which doesn't contain sensitive information.",
+            "value": "/alittlesecret"
         },
         "PASSWORD": {
-            "description": "Trojan Password, recommend strong password.",
+            "description": "safeguard Password, recommend strong password.",
             "value": "password"
         },        
         "ArgoJSON": {
